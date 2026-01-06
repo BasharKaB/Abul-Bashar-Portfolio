@@ -26,14 +26,28 @@
   color: white;
   cursor: pointer;
 }
-
+.section-heading{
+    max-width: 827px ;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p {
+    font-size: 18px;
+    margin: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 /* main style */
 
 header {
   background-color: #fff8f3;
-  background: url(/images/developer.png), url(../images/header_bg.png);
+  background: url(/images/developer.png), url(../images/header_bg.png) #fff8f3;
   background-repeat: no-repeat;
-  background-position:top left bottom right;
+  background-position: top left, bottom right;
   padding-top: 50px;
 }
 nav {
@@ -64,8 +78,8 @@ nav .menu a {
   justify-content: space-between;
   align-items: center;
 }
-.banner-content{
-    max-width: 585px;
+.banner-content {
+  max-width: 585px;
 }
 .banner-content h2 {
   font-size: 45px;
@@ -73,20 +87,68 @@ nav .menu a {
   color: #474747;
   margin-bottom: 5px;
 }
-.banner-content h1{
-    font-size: 85px;
-    font-weight: bold;
-    color: #181818;
-    margin-bottom: 20px;
+.banner-content h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
 }
-.banner-content p{
-    font-size: 18px;
-    color: #757575;
-    margin-bottom: 30px;
+.banner-content p {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.banner-image img {
+  max-width: 585px;
+  vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+}
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 157px;
 
 }
 
-.banner-image img{
-    max-width: 585px;
-    vertical-align: middle;
-}
+ .about-info{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .info-card p{
+ font-size: 20px;
+ /* margin-bottom: 30px; */
+ line-height: 30px;
+ color: #757575;
+ }
+ .info-card h4{
+    font-size: 20px;
+ }
+
+ #skills{
+    padding-top: 130px;
+
+ }
+
+ .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ .skills-box{
+    display: flex;
+    gap: 24px;
+ }
+ .skills-card{
+    padding: 30px;
+    border: 1px solid red;
+    max-width: 267px;
+ }
+ .skills-card img{
+    max-width: 44px;
+ }
